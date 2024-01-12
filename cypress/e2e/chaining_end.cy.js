@@ -14,6 +14,6 @@ it('Chaining commands', () => {
   cy
     .get('[data-cy=list]')
     .eq(1)
-    .contains(should.have,'milk')
+    .contains('milk')
 
 });
